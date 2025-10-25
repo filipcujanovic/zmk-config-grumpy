@@ -67,7 +67,6 @@ double_tap_##NAME: double_tap_key_##NAME { \
         COMBO(bspc, &kp BSPC, CHAR_U CHAR_I, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
         COMBO(rbrc, &kp RBRC, CHAR_C CHAR_V, 50, SYMBOLS NAVIGATION)
         COMBO(rbkt, &kp RBKT, CHAR_M CHAR_COMMA, 50, SYMBOLS NAVIGATION)
-        COMBO(toggle_linux, &tog , CHAR_A CHAR_SEMICOLON, 50, DEFAULT)
         COMBO(tmux_prefix, &kp LC(S), CHAR_A CHAR_S, 15, DEFAULT)
         COMBO(tmux_session_prefix, &kp LA(S), CHAR_S CHAR_D, 15, DEFAULT)
     };
