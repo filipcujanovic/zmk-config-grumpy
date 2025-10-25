@@ -74,12 +74,13 @@ double_tap_##NAME: double_tap_key_##NAME { \
 
 
 / {
-
     behaviors {
-        DOUBLE_TAP(key_q, &kp A &kp Q)
-        DOUBLE_TAP(key_p, &kp SEMI &kp P)
-        DOUBLE_TAP(key_b, &kp G &kp B)
-        DOUBLE_TAP(key_n, &kp H &kp N)
+        DOUBLE_TAP(key_a, &kp A &kp Q)
+        DOUBLE_TAP(key_semi, &kp SEMI &kp P)
+        DOUBLE_TAP(key_g, &kp G &kp B)
+        DOUBLE_TAP(key_h, &kp H &kp N)
+        DOUBLE_TAP(key_space, &kp SPACE &mo NAVIGATION)
+        DOUBLE_TAP(key_enter, &kp ENTER &mo SYMBOLS)
         isk: intuitive_sk {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -98,16 +99,26 @@ double_tap_##NAME: double_tap_key_##NAME { \
 };
 
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <SYMBOLS NAVIGATION>;
+            then-layer = <NUMBERS>;
+        };
+    };
+};
+
+/ {
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                      &kp W &kp E &kp R  &kp T     &kp Y   &kp U &kp I     &kp O
-                &kp A &kp S &kp D &kp F  &kp G     &kp H   &kp J &kp K     &kp L   &kp SEMI
-                &kp Z &kp X &kp C &kp V                    &kp M &kp COMMA &kp DOT &kp SLASH
-                                  &kp ENTER                &kp SPC
+                                  &kp W &kp E &kp R  &kp T              &kp Y              &kp U &kp I &kp O
+                &double_tap_key_a &kp S &kp D &kp F  &double_tap_key_g  &double_tap_key_h  &kp J &kp K &kp L   &double_tap_key_semi
+                &kp Z             &kp X &kp C &kp V                     &kp M              &kp COMMA   &kp DOT &kp SLASH
+                                  &kp ENTER                             &kp SPC
             >;
         };
 
