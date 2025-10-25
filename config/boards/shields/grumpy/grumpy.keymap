@@ -76,6 +76,10 @@ double_tap_##NAME: double_tap_key_##NAME { \
 / {
 
     behaviors {
+        DOUBLE_TAP(key_q, &kp A &kp Q)
+        DOUBLE_TAP(key_p, &kp SEMI &kp P)
+        DOUBLE_TAP(key_b, &kp G &kp B)
+        DOUBLE_TAP(key_n, &kp H &kp N)
         isk: intuitive_sk {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
