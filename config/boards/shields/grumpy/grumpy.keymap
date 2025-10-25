@@ -118,7 +118,7 @@ double_tap_##NAME: double_tap_key_##NAME { \
                                   &kp W &kp E &kp R  &kp T              &kp Y              &kp U &kp I &kp O
                 &double_tap_key_a &kp S &kp D &kp F  &double_tap_key_g  &double_tap_key_h  &kp J &kp K &kp L   &double_tap_key_semi
                 &kp Z             &kp X &kp C &kp V                     &kp M              &kp COMMA   &kp DOT &kp SLASH
-                                  &kp ENTER                             &kp SPC
+                                  &double_tap_key_enter                 &double_tap_key_space
             >;
         };
 
