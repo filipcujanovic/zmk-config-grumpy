@@ -91,19 +91,6 @@ double_tap_##NAME: double_tap_key_##NAME { \
             release-after-ms = <1000>;
             quick-release;
         };
-
-        dls_macos: double_layer_switch_macos {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo SYMBOLS>, <&sl NAVIGATION_MACOS>;
-        };
-        dls_linux: double_layer_switch_linux {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mo SYMBOLS>, <&sl NAVIGATION_LINUX>;
-        };
     };
 };
 
