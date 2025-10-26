@@ -1,9 +1,0 @@
-file_format: "1"
-id: grumpy
-name: grumpy
-type: shield
-url: https://github.com/weteor/grumpy
-requires:
-  - seeeduino_xiao_rp2040
-features:
-  - keys
