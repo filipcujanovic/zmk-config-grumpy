@@ -6,7 +6,4 @@ if SHIELD_GRUMPY
 config ZMK_KEYBOARD_NAME
     default "grumpy"
 
-config CONFIG_ZMK_SETTINGS_RESET_ON_START
-    default y
-
 endif
