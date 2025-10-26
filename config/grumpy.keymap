@@ -29,7 +29,7 @@
 
         default_layer {
             bindings = <
-                      &kp W &kp E &kp R &kp T      &kp H &kp U  &kp I    &kp O
+                      &kp W &kp E &kp R &kp G      &kp H &kp U  &kp I    &kp O
                 &kp A &kp S &kp D &kp F &kp B      &kp N &kp J  &kp K    &kp L   &kp P
                 &kp Z &kp X &kp C &kp V                  &kp M &kp COMMA &kp DOT &kp SLASH
                 &my_lt SYMBOLS ENTER                               &my_lt NAVIGATION SPACE
