@@ -152,7 +152,7 @@ combos:
 - p: [0, 1]
   k: Q
   l: [default]
-- p: [1, 2]
+- p: [18, 19]
   k: Z
   l: [default]
 - p: [16, 17]
