@@ -4,8 +4,8 @@ layers:
   - W
   - E
   - R
-  - G
-  - H
+  - T
+  - Y
   - U
   - I
   - O
@@ -13,20 +13,20 @@ layers:
   - S
   - D
   - F
-  - B
-  - N
+  - G
+  - H
   - J
   - K
   - L
   - P
-  - Z
   - X
   - C
   - V
+  - B
+  - N
   - M
   - ','
   - .
-  - /
   - {t: ENTER, h: symbol}
   - {t: SPACE, h: navigation}
   symbol:
@@ -83,8 +83,8 @@ layers:
   - Gui+V
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - PLAY PAUSE
   - ''
+  - PLAY PAUSE
   - {t: ▽, type: trans}
   - {type: held}
   numbers:
@@ -155,8 +155,11 @@ combos:
 - p: [1, 2]
   k: T
   l: [default]
-- p: [5, 6]
-  k: Y
+- p: [16, 17]
+  k: ;
+  l: [default]
+- p: [22, 23]
+  k: /
   l: [default]
 - p: [10, 11]
   k: ESC
