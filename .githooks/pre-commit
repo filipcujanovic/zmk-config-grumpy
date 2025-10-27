@@ -3,4 +3,4 @@
 keymap parse -z config/grumpy.keymap > docs/keymap.yaml
 keymap --config docs/keymap-config.yaml draw docs/keymap.yaml > docs/keymap.svg
 
-git add .
+git add docs/keymap.yaml docs/keymap.svg

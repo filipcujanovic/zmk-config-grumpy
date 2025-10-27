@@ -105,7 +105,7 @@ double_tap_##NAME: double_tap_key_##NAME { \
         //COMBO(n, &kp N, 22 23, 15, DEFAULT NAVIGATION NUMBERS ADJUST)
         COMBO(bspc, &kp BSPC, 6 7, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
         COMBO(q, &kp Q, 0 1, 15, DEFAULT)
-        COMBO(z, &kp T, 1 2, 15, DEFAULT)
+        COMBO(z, &kp Z, 1 2, 15, DEFAULT)
         COMBO(semi, &kp SEMI, 16 17, 15, DEFAULT)
         COMBO(slash, &kp SLASH, 22 23, 15, DEFAULT)
         COMBO(esc, &kp ESC, 10 11, 15, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
