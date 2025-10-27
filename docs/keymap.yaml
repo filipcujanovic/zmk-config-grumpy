@@ -1,0 +1,178 @@
+layout: {zmk_keyboard: grumpy}
+layers:
+  default:
+  - W
+  - E
+  - R
+  - G
+  - H
+  - U
+  - I
+  - O
+  - A
+  - S
+  - D
+  - F
+  - B
+  - N
+  - J
+  - K
+  - L
+  - P
+  - Z
+  - X
+  - C
+  - V
+  - M
+  - ','
+  - .
+  - /
+  - {t: ENTER, h: symbol}
+  - {t: SPACE, h: navigation}
+  symbol:
+  - <
+  - '>'
+  - _
+  - '?'
+  - '"'
+  - '~'
+  - '|'
+  - '`'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '='
+  - '-'
+  - +
+  - '{'
+  - '['
+  - ''''
+  - ':'
+  - \
+  - {type: held}
+  - {t: ▽, type: trans}
+  navigation:
+  - adjust
+  - ''
+  - ''
+  - ''
+  - PREVIOUS
+  - VOLUME DOWN
+  - VOLUME UP
+  - NEXT
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHIFT, h: sticky}
+  - TAB
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - Alt+BSPC
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - PLAY PAUSE
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+  numbers:
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - ''
+  - Gui+Sft+4
+  - Gui+Sft+5
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  adjust:
+  - {type: held}
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {type: held}
+combos:
+- p: [6, 7]
+  k: BSPC
+  l: [default, symbol, navigation, numbers, adjust]
+- p: [0, 1]
+  k: Q
+  l: [default]
+- p: [1, 2]
+  k: T
+  l: [default]
+- p: [5, 6]
+  k: Y
+  l: [default]
+- p: [10, 11]
+  k: ESC
+  l: [default, symbol, navigation, numbers, adjust]
+- p: [18, 25]
+  k: '&caps_word'
+  l: [default, symbol, navigation, numbers, adjust]
+- p: [20, 21]
+  k: '}'
+  l: [symbol]
+- p: [22, 23]
+  k: ']'
+  l: [symbol]
+- p: [8, 9]
+  k: Ctl+S
+  l: [default]
+- p: [8, 10]
+  k: Alt+S
+  l: [default]
