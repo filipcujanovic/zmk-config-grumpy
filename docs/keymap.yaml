@@ -146,10 +146,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [6, 7]
+- p: [5, 6]
   k: BSPC
   l: [default, symbol, navigation, numbers, adjust]
-- p: [2, 3]
+- p: [1, 2]
   k: ESC
   l: [default, symbol, navigation, numbers, adjust]
 - p: [18, 25]
