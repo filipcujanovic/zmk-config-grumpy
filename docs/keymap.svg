@@ -729,14 +729,14 @@ path.combo {
 <g transform="translate(182, 93)" class="key keypos-5">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
-<g transform="translate(210, 79)" class="key keypos-6">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
+<g transform="translate(210, 79)" class="key held keypos-6">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
 </g>
 <g transform="translate(238, 72)" class="key held keypos-7">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
 </g>
-<g transform="translate(266, 79)" class="key held keypos-8">
-<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key held"/>
+<g transform="translate(266, 79)" class="key keypos-8">
+<rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 </g>
 <g transform="translate(14, 121)" class="key keypos-9">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
