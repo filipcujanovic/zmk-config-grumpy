@@ -103,17 +103,20 @@ double_tap_##NAME: double_tap_key_##NAME { \
         //COMBO(p, &kp P, 6 7, 15, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
         //COMBO(b, &kp B, 20 21, 15, DEFAULT NAVIGATION NUMBERS ADJUST)
         //COMBO(n, &kp N, 22 23, 15, DEFAULT NAVIGATION NUMBERS ADJUST)
-        COMBO(bspc, &kp BSPC, 5 6, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
+        COMBO(bspc, &kp BSPC, 6 7, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
+        COMBO(esc, &kp ESC, 2 3, 15, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
+        COMBO(caps_word, &caps_word, 18 25, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
+
+        COMBO(tmux_prefix, &kp LC(S), 8 9, 15, DEFAULT)
+        COMBO(tmux_session_prefix, &kp LA(S), 8 10, 15, DEFAULT)
+        COMBO(sqt, &kp SQT, 6 7, 15, DEFAULT)
         COMBO(q, &kp Q, 0 1, 15, DEFAULT)
         COMBO(z, &kp Z, 18 19, 15, DEFAULT)
         COMBO(semi, &kp SEMI, 16 17, 15, DEFAULT)
         COMBO(slash, &kp SLASH, 24 25, 15, DEFAULT)
-        COMBO(esc, &kp ESC, 10 11, 15, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
-        COMBO(caps_word, &caps_word, 18 25, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
+
         COMBO(rbrc, &kp RBRC, 20 21, 50, SYMBOLS)
         COMBO(rbkt, &kp RBKT, 22 23, 50, SYMBOLS)
-        COMBO(tmux_prefix, &kp LC(S), 8 9, 15, DEFAULT)
-        COMBO(tmux_session_prefix, &kp LA(S), 8 10, 15, DEFAULT)
     };
 };
 
