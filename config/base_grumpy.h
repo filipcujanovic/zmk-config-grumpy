@@ -108,8 +108,8 @@ double_tap_##NAME: double_tap_key_##NAME { \
         COMBO(caps_word, &caps_word, 18 25, 50, DEFAULT SYMBOLS NAVIGATION NUMBERS ADJUST)
 
         COMBO(tmux_prefix, &kp LC(S), 8 9, 15, DEFAULT)
-        COMBO(tmux_session_prefix, &kp LA(S), 8 10, 15, DEFAULT)
-        COMBO(sqt, &kp SQT, 9 10, 15, DEFAULT)
+        COMBO(tmux_session_prefix, &kp LA(S), 9 10, 15, DEFAULT)
+        COMBO(sqt, &kp SQT, 10 11, 15, DEFAULT)
         COMBO(q, &kp Q, 0 1, 15, DEFAULT)
         COMBO(z, &kp Z, 18 19, 15, DEFAULT)
         COMBO(semi, &kp SEMI, 16 17, 15, DEFAULT)
