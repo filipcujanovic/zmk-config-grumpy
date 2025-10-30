@@ -161,7 +161,7 @@ combos:
 - p: [8, 10]
   k: Alt+S
   l: [default]
-- p: [10, 11]
+- p: [9, 10]
   k: ''''
   l: [default]
 - p: [0, 1]
